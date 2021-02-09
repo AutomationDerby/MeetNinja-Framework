@@ -1,0 +1,5 @@
+#!/bin/sh
+
+sudo passwd -d root
+sudo apt-get update
+sudo apt-get install portaudio19-dev python-pyaudio python3-pyaudio
