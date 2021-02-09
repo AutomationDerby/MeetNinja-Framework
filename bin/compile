@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-sudo passwd -d root
-sudo apt-get update
-sudo apt-get install portaudio19-dev python-pyaudio python3-pyaudio
+passwd -d root
+apt-get update
+apt-get install portaudio19-dev python-pyaudio python3-pyaudio
